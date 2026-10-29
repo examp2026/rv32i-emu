@@ -1,0 +1,52 @@
+# --- CMake Build Artifacts ---
+build/
+bin/
+out/
+.cache/
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+cmake_install.cmake
+Makefile
+Testing/
+install_manifest.txt
+
+# --- Compiled Objects & Binaries ---
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.exe
+run_tests
+
+# --- Editor & IDE Files ---
+# Emacs
+*~
+#*#
+.#*
+
+# Vim
+*.swp
+*.swo
+*.un~
+
+# Language Servers & IDEs
+.clangd/
+ccls-index/
+.vscode/
+.idea/
+
+# --- OS Specific ---
+.DS_Store
+Thumbs.db
+
+*~
+#*#
+.#*
+*.swp
+*.swo
